@@ -10,7 +10,7 @@ module.exports = class extends Command {
       userRequiredPermissions: "ADMINISTRATOR",   
     })
   }
-
+             
   async run({client, channel, respond}) {
     let embed = new MessageEmbed()
       .setAuthor(client.config.embed.author)
